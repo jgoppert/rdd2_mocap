@@ -2,7 +2,9 @@
 	<node pkg="tf2_ros" exec="static_transform_publisher" args="0 0 0 0 0 0 map qualisys"/>
 	<node pkg="tf2_ros" exec="static_transform_publisher" args="0 0 0 0 0 0 map odom"/>
 	<node pkg="topic_tools" exec="relay" args="/rdd2/odom /cerebri/in/odometry"/>
-	<node pkg="qualisys_mocap" exec="qualisys_node"/>
+	<node pkg="qualisys_mocap" exec="qualisys_node">
+		<param name="server" value="192.168.8.144"/>
+	</node>
 	<include file="$(find-pkg-share electrode)/launch/electrode.launch.py">
 		<arg name="vehicle" value="rdd2"/>
 	</include>
