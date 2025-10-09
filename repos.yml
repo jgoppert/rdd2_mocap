@@ -1,12 +1,12 @@
 ---
 repositories:
-  src/qualsisys_cpp_sdk:
+  src/qualisys_cpp_sdk:
     type: git
-    url: git@github.com:qualsisys/qualisys_cpp_sdk
+    url: git@github.com:qualisys/qualisys_cpp_sdk
     version: master
-  src/qualsisys_mocap:
+  src/qualisys_mocap:
     type: git
-    url: git@github.com:qualsisys/qualisys_mocap
+    url: git@github.com:cognipilot/qualisys_mocap
     version: main
   src/corti:
     type: git
