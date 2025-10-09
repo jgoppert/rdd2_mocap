@@ -1,0 +1,26 @@
+---
+repositories:
+  src/qualsisys_cpp_sdk:
+    type: git
+    url: git@github.com:qualsisys/qualisys_cpp_sdk
+    version: master
+  src/qualsisys_mocap:
+    type: git
+    url: git@github.com:qualsisys/qualisys_mocap
+    version: main
+  src/corti:
+    type: git
+    url: git@github.com:cognipilot/corti
+    version: main
+  src/electrode:
+    type: git
+    url: git@github.com:cognipilot/electrode
+    version: main
+  src/rdd2_desktop:
+    type: git
+    url: git@github.com:cognipilot/rdd2_desktop
+    version: main
+  src/synapse_msgs:
+    type: git
+    url: git@github.com:cognipilot/synapse_msgs
+    version: main
