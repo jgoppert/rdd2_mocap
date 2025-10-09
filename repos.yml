@@ -2,8 +2,8 @@
 repositories:
   src/qualisys_cpp_sdk:
     type: git
-    url: git@github.com:qualisys/qualisys_cpp_sdk
-    version: master
+    url: git@github.com:jgoppert/qualisys_cpp_sdk
+    version: pr-install-fix
   src/qualisys_mocap:
     type: git
     url: git@github.com:cognipilot/qualisys_mocap
